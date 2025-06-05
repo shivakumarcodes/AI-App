@@ -9,7 +9,7 @@ const TextToImageGenerator = () => {
   const [imageError, setImageError] = useState('');
   const [isLoading, setIsLoading] = useState(false);
 
-  const API_BASE = 'http://localhost:3001';
+  const API_BASE = 'https://shiva-ai-app.onrender.com';
 
   const generateImage = async () => {
     if (!inputText.trim()) {
