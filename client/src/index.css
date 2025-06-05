@@ -478,7 +478,7 @@ body {
 }
 
 .summary-text {
-  color: rgba(255, 255, 255, 0.9);
+  color: black;
   line-height: 1.7;
   font-size: 1.05rem;
 }
