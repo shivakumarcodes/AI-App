@@ -7,7 +7,7 @@ const AIInterviewer = () => {
   const [chatMessages, setChatMessages] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
 
-  const API_BASE = 'http://localhost:3001';
+  const API_BASE = 'https://shiva-ai-app.onrender.com';
 
   const startInterview = async () => {
     setInterviewStarted(true);
