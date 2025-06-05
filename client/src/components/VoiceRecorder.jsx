@@ -6,7 +6,7 @@ const VoiceRecorder = ({ onResult }) => {
   const [isLoading, setIsLoading] = useState(false);
   const mediaRecorderRef = useRef(null);
 
-  const API_BASE = 'http://localhost:3001';
+  const API_BASE = 'https://shiva-ai-app.onrender.com';
 
   const startRecording = async () => {
     try {
