@@ -9,6 +9,8 @@ const axios = require('axios');
 const pdfParse = require('pdf-parse');
 const rateLimit = require('express-rate-limit');
 
+//server url : https://shiva-ai-app.onrender.com
+
 const limiter = rateLimit({
   windowMs: 60 * 1000, // 1 minute
   max: 20 // limit each IP to 20 requests per minute
